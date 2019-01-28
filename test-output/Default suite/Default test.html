@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jan 27 21:34:06 CET 2019</td>
+<td>Started on:</td><td>Mon Jan 28 23:03:53 CET 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (47 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (36 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testclases.TestAsserts.testArray()'><b>testArray</b><br>Test class: testclases.TestAsserts</td>
-<td><div><pre>java.lang.AssertionError: arrays don&apos;t have the same size.  expected [4] but found [3]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:652)
-	at org.testng.Assert.checkRefEqualityAndLength(Assert.java:430)
-	at org.testng.Assert.assertEquals(Assert.java:250)
-	at org.testng.Assert.assertEquals(Assert.java:238)
-	at testclases.TestAsserts.testArray(TestAsserts.java:39)
+<td title='testclases.SoftAsserts.testSum()'><b>testSum</b><br>Test class: testclases.SoftAsserts</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [2] but found [3]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testclases.SoftAsserts.testSum(SoftAsserts.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -111,17 +105,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace555826066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace555826066'><pre>java.lang.AssertionError: arrays don&apos;t have the same size.  expected [4] but found [3]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:652)
-	at org.testng.Assert.checkRefEqualityAndLength(Assert.java:430)
-	at org.testng.Assert.assertEquals(Assert.java:250)
-	at org.testng.Assert.assertEquals(Assert.java:238)
-	at testclases.TestAsserts.testArray(TestAsserts.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace540642172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace540642172'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [2] but found [3]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testclases.SoftAsserts.testSum(SoftAsserts.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -149,25 +137,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testclases.TestAsserts@1efbd816</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testclases.TestAsserts.testString()'><b>testString</b><br>Test class: testclases.TestAsserts</td>
-<td></td>
-<td>0</td>
-<td>testclases.TestAsserts@1efbd816</td></tr>
-<tr>
-<td title='testclases.TestAsserts.testSum()'><b>testSum</b><br>Test class: testclases.TestAsserts</td>
-<td></td>
-<td>0</td>
-<td>testclases.TestAsserts@1efbd816</td></tr>
+<td>testclases.SoftAsserts@1efbd816</td></tr>
 </table><p>
 </body>
 </html>

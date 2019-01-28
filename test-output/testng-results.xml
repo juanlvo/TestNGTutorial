@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2019-01-27T20:34:06Z" finished-at="2019-01-27T20:34:06Z">
+  <suite name="Default suite" duration-ms="36" started-at="2019-01-28T22:03:53Z" finished-at="2019-01-28T22:03:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2019-01-27T20:34:06Z" finished-at="2019-01-27T20:34:06Z">
-      <class name="testclases.TestAsserts">
-        <test-method status="FAIL" signature="testArray()[pri:0, instance:testclases.TestAsserts@1efbd816]" name="testArray" duration-ms="15" started-at="2019-01-27T20:34:06Z" finished-at="2019-01-27T20:34:06Z">
+    <test name="Default test" duration-ms="36" started-at="2019-01-28T22:03:53Z" finished-at="2019-01-28T22:03:53Z">
+      <class name="testclases.SoftAsserts">
+        <test-method status="FAIL" signature="testSum()[pri:0, instance:testclases.SoftAsserts@1efbd816]" name="testSum" duration-ms="15" started-at="2019-01-28T22:03:53Z" finished-at="2019-01-28T22:03:53Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[arrays don't have the same size.  expected [4] but found [3]]]>
+              <![CDATA[The following asserts failed:
+expected [2] but found [3]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: arrays don't have the same size.  expected [4] but found [3]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:652)
-at org.testng.Assert.checkRefEqualityAndLength(Assert.java:430)
-at org.testng.Assert.assertEquals(Assert.java:250)
-at org.testng.Assert.assertEquals(Assert.java:238)
-at testclases.TestAsserts.testArray(TestAsserts.java:39)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [2] but found [3]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at testclases.SoftAsserts.testSum(SoftAsserts.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,16 +48,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testArray -->
-        <test-method status="PASS" signature="testString()[pri:0, instance:testclases.TestAsserts@1efbd816]" name="testString" duration-ms="1" started-at="2019-01-27T20:34:06Z" finished-at="2019-01-27T20:34:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testString -->
-        <test-method status="PASS" signature="testSum()[pri:0, instance:testclases.TestAsserts@1efbd816]" name="testSum" duration-ms="2" started-at="2019-01-27T20:34:06Z" finished-at="2019-01-27T20:34:06Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- testSum -->
-      </class> <!-- testclases.TestAsserts -->
+      </class> <!-- testclases.SoftAsserts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
