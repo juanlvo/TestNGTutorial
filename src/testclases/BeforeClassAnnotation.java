@@ -7,7 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
 /***
- * Section 28 Lecture 156 Method and class annotations
+ * Section 28 Lecture 156 
+ * Method and class annotations
  * 
  * @author juanl
  *
