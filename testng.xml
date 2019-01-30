@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Section 28 Lecture 157 
+     Running a test suite
+     Author: @juanl
+-->
+<suite name="Regression TestSuite">
+<test name="Application Test">
+	<classes>
+		<class name="testclasses.BeforeClassAnnotation"></class>
+		<class name="testclasses.TestClass2"></class>
+	</classes>
+</test>
+</suite>

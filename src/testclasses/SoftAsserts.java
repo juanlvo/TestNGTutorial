@@ -1,4 +1,4 @@
-package testclases;
+package testclasses;
 
 import org.testng.asserts.SoftAssert;
 import org.testng.annotations.Test;

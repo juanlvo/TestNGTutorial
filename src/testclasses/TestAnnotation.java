@@ -1,4 +1,4 @@
-package testclases;
+package testclasses;
 
 import org.testng.annotations.Test;
 import appcode.SomeClassToTest;
